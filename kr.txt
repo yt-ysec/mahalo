@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 git hub
+=======
+aloha
+hello
+>>>>>>> 5c6ffefac5539ed8998be0690813ad82177cb53c
 
