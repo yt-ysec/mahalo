@@ -1,2 +1,4 @@
 「h1, div, span, p要素を書いて、stylingもしてみた」
 code__krを削除しました
+code_krも削除しました
+
