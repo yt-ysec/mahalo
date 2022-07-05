@@ -1,142 +1,21 @@
-<h1>はろー</h1>
-  <h2>アロハ！</h2>  
-  <style>
-    h2 {
-      background-color: blue;
-      color: salmon;
-      padding: 5px;
-      padding-left: 20px;
-    }
-  </style>
 
 
-  <hr>
-  no div
-  no div
-  <div>ALOHA</div>
-  <div>ALOHA2</div>
-
-
-  <style>
-    div {
-      backround-color: pink;
-      color: mediumpurple;
-    }
-  </style>
+<meta charset="utf-8">
+  
+  <form>
+    <label>ID</label>
+    <input type="text" name="user_id">
     
-
-<hr>
-Good morning.
-<span>Guten Tag.</span>
-Ciao!
-
-
-
-<style>
-  span {
-    color: darkred;
-    font-size: 30px;
-  }
-</style>
-
-<p>
-  いろはにほへとちりぬるを
-</p>
-
-<p>
-  わかよたれそつねならむ
-</p>
-
-<a href="https://apple.com">apple</a>
-
-
-<style>
-  h2{
-    background-color: lightpink;
-    color: skyblue;
-    padding: 3px;
-    padding-left: 30px;
-  }
-
-  div{
-    background-color: rgb(255, 234, 0, 0.368);
-  }
-
-  span{
-    background-color: rgba(255, 51, 0, 1.0);
-  }
-
-  span1{
-    color: rgb(255, 0, 0);
-    font-size: 30px;
-  }
-</style>
-
-<a href="https://apple.com">Google</a>
-<a href="https://apple.com">リンク1</a>
-
-<style>
-  a {
-    background-color: mediumseagreen;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 20px;
-  }
-</style>
-
-<ul>
-  <li>項目１個</li>
-  <li>次の項目</li>
-  <li>さらにその次</li>
-</ul>
-
-<style>
-  ul, ol {
-    list-style: none;
-  }
-  li {
-    border-bottom: solid 1px silver;
-    margin-top: 20px;
-  }
-</style>
-
-<table border=1>
-  <tr>
-    <th>name</th>
-    <th>ID</th>
-  </tr>
-  <tr>
-    <td>橋本</td>
-    <td>@bridge</td>
-  </tr>
-  <tr>
-    <td>山口</td>
-    <td>@mountain</td>
-  </tr>
-</table>
-
-<img src="sounyan.jpg" alt="相鉄マスコット そうにゃんの画像">
-
-name: <input type="text" name="username">
-<br>
-location: <input type="text" name="address">
-
-<label>name</label>
-<input type="text" name="username">
- <br>
- <label>address</label>
- <br>
- <label>password</label>
- <input type="password" name="password">
-
- <form>
-   <label>tytle</label>
-   <input type="text" name="title">
-   <br>
-   <label>name</label>
-   <input type="text" name="username">
-   <br>
-   <input type="submit" name="登録">
-
- </form>
+    <label>パスワード</label>
+    <input type="password" name="user_pwd">
+    
+    <label>プラン</label>
+    <select name="plan">
+      <option>週末限定プラン</option>
+      <option>平日限定プラン</option>
+      <option>夜限定プラン</option>
+      <option>限定なしプラン</option>
+    </select>
+    
+    <input type="submit" value="登録">
+  </form>
